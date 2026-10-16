@@ -1,7 +1,5 @@
-<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>TGA 2026 Nominee Predictor</title>
 <style>
 :root{--bg:#f6f4ef;--card:#fff;--tx:#1b1b1f;--mu:#6b6b75;--bd:#dcd8cf;--ac:#b8860b;--acbg:#fbf1d6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121214;--card:#1c1c20;--tx:#f0eee8;--mu:#9a9aa5;--bd:#33333a;--ac:#e5b94a;--acbg:#3a3015}}
