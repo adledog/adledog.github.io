@@ -3,6 +3,7 @@
 <style>
 :root{--bg:#f6f4ef;--card:#fff;--tx:#1b1b1f;--mu:#6b6b75;--bd:#dcd8cf;--ac:#b8860b;--acbg:#fbf1d6;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121214;--card:#1c1c20;--tx:#f0eee8;--mu:#9a9aa5;--bd:#33333a;--ac:#e5b94a;--acbg:#3a3015}}
+:root[data-theme="dark"]{--bg:#121214;--card:#1c1c20;--tx:#f0eee8;--mu:#9a9aa5;--bd:#33333a;--ac:#e5b94a;--acbg:#3a3015;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
 header{max-width:900px;margin:0 auto;padding:28px 16px 8px}
@@ -28,7 +29,7 @@ summary::-webkit-details-marker{display:none}
 .chip[aria-pressed=true]{background:var(--acbg);border-color:var(--ac);font-weight:600}
 .chip:disabled{opacity:.4;cursor:not-allowed}
 .ac{position:relative;flex:1;min-width:200px}.ac input{width:100%}.ac ul{display:none;position:absolute;left:0;right:0;top:100%;z-index:9;margin:4px 0 0;padding:4px;list-style:none;background:var(--card);border:1px solid var(--bd);border-radius:8px;box-shadow:0 6px 18px #0003;max-height:260px;overflow:auto}.ac li{padding:7px 10px;border-radius:6px;cursor:pointer}.ac li.on,.ac li:hover{background:var(--acbg)}
-pre{white-space:pre-wrap;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;font:.85rem/1.5 ui-monospace,monospace;display:none;margin:0}
+pre{white-space:pre-wrap;background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:10px;padding:12px;font:.85rem/1.5 ui-monospace,monospace;display:none;margin:0}
 </style></head><body>
 <header>
 <h1>🏆 The Game Awards 2026 — Nominee Predictor</h1>
