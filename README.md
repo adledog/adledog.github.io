@@ -35,7 +35,6 @@ pre{white-space:pre-wrap;background:#fff!important;color:#1b1b1f!important;borde
 :root[data-theme="dark"] pre{background:#1c1c20!important;color:#f0eee8!important;border-color:#33333a}
 </style></head><body>
 <header>
-<h1>🏆 The Game Awards 2026 — Nominee Predictor</h1>
 <p class="sub">Type in each category to autocomplete from 2026 releases scoring above 80 on OpenCritic (snapshot Oct 15, 2026; DLC left out). Any other title can be entered as free text. Ceremony: Dec 10, 2026 · nominees expected mid-November. Categories mirror 2025's; the official 2026 list isn't out yet.</p>
 <div class="add"><input id="cg" placeholder="Missing a game? Add it here…"><button id="ab">Add game</button></div>
 <div class="bar"><div class="prog"><span id="pt"></span><i><b id="pb"></b></i></div>
